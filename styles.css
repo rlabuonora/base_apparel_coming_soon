@@ -130,7 +130,10 @@ main {
   padding-bottom: 4em;
 }
 
-
+.email-form {
+  margin-left: 2em;
+  margin-right: 2em;
+}
 
 /* Desktop styles */
 @media (min-width: 770px) {
@@ -193,6 +196,9 @@ main {
     padding: 1.5em;
   }
  
-  
+  .email-form {
+    margin-left: 0;
+    margin-right: 0;
+  }
   
 }
