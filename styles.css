@@ -111,14 +111,19 @@ main {
   display: grid;
 } */
 
+/* Desktop styles */
 @media (min-width: 600px) {
+
+  html, body {
+    height: 100%;
+  }
 
 
   .container {
-    max-width: 1400px;
     display: grid;
-    grid-template-columns: 12.5% 32% 12.5% 43%;
+    grid-template-columns: 12.5% 32% 12.5% minmax(600px, 43%);
     grid-template-rows: 22.5% 67.5% 12.5%;
+    height: 100%;
   }
 
   header {
