@@ -25,6 +25,7 @@ body {
 
 .hero {
   margin-bottom: 4em;
+  
 }
 
 
@@ -52,6 +53,7 @@ h1 strong {
 
 
 
+
 main p {
   color: hsla(0, 36%, 70%, 0.8);
   font-weight: 400;
@@ -72,13 +74,19 @@ input::placeholder {
 }
 
 .email-form {
-  position: relative;
+  display: grid;
+  grid-template-columns:  repeat(6, 1fr);
 }
 
+.email-input {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+
+
+
 a.btn {
-  position: absolute;
-  top: 0;
-  right: 0;
+
   display: flex;
   justify-content: center;
   width: 6em;
@@ -87,6 +95,9 @@ a.btn {
   background-color:  hsla(0, 93%, 68%, 0.7);
   text-indent: -400em;
   text-decoration: none;
+
+  grid-row: 1;
+  grid-column: -2;
 
 }
 
