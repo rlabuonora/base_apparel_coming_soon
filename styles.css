@@ -94,7 +94,7 @@ a.btn::after {
   content: "\003E";
   text-indent: 0;
   display: block;
-  line-height: .7;
+  line-height: .8;
   color: hsl(0, 100%, 99%);
   font-size: 2em;
   padding: .5em;
